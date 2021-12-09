@@ -9,8 +9,11 @@ Processing cryptocurrency data to fit machine learning models.
 ## Process
 - Data Preperation: Filter for cryptocurrencies actively being traded and that have been mined, remove all null value rows, remove unneeded columns, convert non-numeric data to numeric, and standardize the dataset.
 - Dimensionality Reduction: First using PCA then using t-SNE
+
 ![tsne](/Images/tsne.png)
+
 - Cluster Analysis: k-Means
+
 ![elbow](/Images/elbow.png)
 
 ## Recommendation
